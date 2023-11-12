@@ -11,7 +11,7 @@
 
 # crowsnest repo
 [[ -n "$CROWSNEST_REPO_SHIP" ]] || CROWSNEST_REPO_SHIP="https://github.com/mryel00/crowsnest-dev.git"
-[[ -n "$CROWSNEST_REPO_BRANCH" ]] || CROWSNEST_REPO_BRANCH="remove_is_raspbian"
+[[ -n "$CROWSNEST_REPO_BRANCH" ]] || CROWSNEST_REPO_BRANCH="speederpad_workaround"
 
 # crowsnest setup
 [[ -n "$CROWSNEST_DEFAULT_CONF" ]] || CROWSNEST_DEFAULT_CONF="resources/crowsnest.conf"
